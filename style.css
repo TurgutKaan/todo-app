@@ -19,7 +19,7 @@ html {
 }
 
 .headline {
-        width: auto;
+        width: 500px;
         text-align-last: center;
 }
 
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-    color: lightcoral;
+    color: rgb(0, 0, 0);
 }
 
 .todoList {
@@ -114,7 +114,7 @@ i {
 }
 
 .clearAll:hover {
-    color: lightcoral;
+    color: rgb(0, 0, 0);
 }
 
 .todo-list-item {
