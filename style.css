@@ -1,17 +1,16 @@
 html {
     height: auto;
     min-height: 100vh;
-    min-width: fit-content;
+   
     width: auto;
-    background-image: linear-gradient(130deg, #FFFFFF,#02112c);
+    background-image: linear-gradient(130deg, #FFFFFF,#010307);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .container {
-    width: 900px;
-    min-width: auto;
-    max-width: auto;
+    width: auto;
+    max-width: 900px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -20,10 +19,9 @@ html {
 }
 
 .headline {
-        width: 700px;
+        width: auto;
         text-align-last: center;
 }
-
 
 
 .logo {
@@ -31,16 +29,17 @@ html {
     margin: auto;
     flex-direction: column;
     max-width: 300px;
-
     padding: 1.5rem 0;
     align-items: center;
    
 }
 
-.main {
-    padding: 20px;
-  
+.main  {
+    padding: 10px;
+    max-width: 900px;
 }
+
+
 
 form {
     background-color: #FFFFFF;
