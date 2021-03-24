@@ -1,14 +1,17 @@
 html {
     height: auto;
     min-height: 100vh;
-    min-width: 600px;
-    background-image: linear-gradient(130deg, #FFFFFF,#1C3F80);
+    min-width: fit-content;
+    width: auto;
+    background-image: linear-gradient(130deg, #FFFFFF,#02112c);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .container {
     width: 900px;
+    min-width: auto;
+    max-width: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,17 +19,27 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
+.headline {
+        width: 700px;
+        text-align-last: center;
+}
+
+
+
 .logo {
     display: flex;
     margin: auto;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 300px;
+
     padding: 1.5rem 0;
     align-items: center;
+   
 }
 
 .main {
     padding: 20px;
+  
 }
 
 form {
@@ -34,6 +47,8 @@ form {
     padding: 15px;
     border-radius: 5px;
     display: flex;
+    min-width: auto;
+   
 }
 
 input[type="text"] {
@@ -44,6 +59,8 @@ input[type="text"] {
     font-family: 'Raleway', sans-serif;
     color: #595959;
     flex-grow: 1;
+    min-width: auto;
+
 }
 
 button {
